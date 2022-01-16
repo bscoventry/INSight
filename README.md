@@ -1,5 +1,5 @@
-# LaserNode
-Welcome to the laser node! Here you will find design documents and code for our open source infrared neural stimulation and optogenetics laser. 
+# INSight
+Welcome to INSight, the open source infrared neural stimulation laser! Here you will find design documents, code, and bill of materials to build your own INSight. Questions can be made in the Issues section of this respository.
 
 # Arduino Code
 LaserControl.ino is for controlling the Laser node in response to an external trigger. To use this code, you will need an Arduino Due, or a similar arduino with an onboard digital to analog converter. Simply load this code onto your device using the Arduino IDE (webbased or computer based are equally good) and load in your randomized stimulus values into the variable outVoltages. Note that this code will repeat for as long as it has a input trigger. 
