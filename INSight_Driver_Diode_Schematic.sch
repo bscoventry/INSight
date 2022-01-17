@@ -10883,7 +10883,7 @@ Grid 5.00 mm&lt;p&gt;
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="Z" package3d_urn="urn:adsk.eagle:package:16416/2" technology="L05"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="TL36WO" device="" package3d_urn="urn:adsk.eagle:package:27754/1"/>
+<part name="POWERON" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="TL36WO" device="" package3d_urn="urn:adsk.eagle:package:27754/1"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="1k"/>
 <part name="POWER_ON" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -10893,7 +10893,7 @@ Grid 5.00 mm&lt;p&gt;
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$2" library="AkelaTrio" deviceset="AKELATRIO" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1812" package3d_urn="urn:adsk.eagle:package:23622/2" value="0.1uF"/>
-<part name="S2" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="255SB" device="" package3d_urn="urn:adsk.eagle:package:27679/1"/>
+<part name="LASEREN" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="255SB" device="" package3d_urn="urn:adsk.eagle:package:27679/1"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="10k"/>
@@ -10919,7 +10919,7 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="SUPPLY2" gate="GND" x="-22.86" y="-27.94" smashed="yes">
 <attribute name="VALUE" x="-24.765" y="-31.115" size="1.778" layer="96"/>
 </instance>
-<instance part="S1" gate="BEF1" x="-66.04" y="0" smashed="yes" rot="R270">
+<instance part="POWERON" gate="BEF1" x="-66.04" y="0" smashed="yes" rot="R270">
 <attribute name="NAME" x="-68.58" y="-5.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-68.58" y="-7.62" size="1.778" layer="96"/>
 </instance>
@@ -10987,7 +10987,7 @@ Grid 5.00 mm&lt;p&gt;
 <attribute name="NAME" x="32.385" y="16.256" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="37.211" y="16.256" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="S2" gate="1" x="33.02" y="5.08" smashed="yes" rot="R270">
+<instance part="LASEREN" gate="1" x="33.02" y="5.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="31.115" y="11.43" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.195" y="8.89" size="1.778" layer="96"/>
 </instance>
@@ -11091,7 +11091,7 @@ Grid 5.00 mm&lt;p&gt;
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="S1" gate="BEF1" pin="O"/>
+<pinref part="POWERON" gate="BEF1" pin="O"/>
 <pinref part="IC1" gate="A1" pin="VI"/>
 <wire x1="-60.96" y1="2.54" x2="-57.82" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-57.82" y1="2.54" x2="-57.82" y2="2.46" width="0.1524" layer="91"/>
@@ -11104,7 +11104,7 @@ Grid 5.00 mm&lt;p&gt;
 <net name="N$4" class="0">
 <segment>
 <pinref part="5VIN" gate="-1" pin="KL"/>
-<pinref part="S1" gate="BEF1" pin="P"/>
+<pinref part="POWERON" gate="BEF1" pin="P"/>
 <wire x1="-83.82" y1="0" x2="-71.12" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -11147,7 +11147,7 @@ Grid 5.00 mm&lt;p&gt;
 <segment>
 <pinref part="U$1" gate="G$1" pin="LDENABLE"/>
 <wire x1="18.05" y1="13.57" x2="25.4" y2="13.57" width="0.1524" layer="91"/>
-<pinref part="S2" gate="1" pin="P"/>
+<pinref part="LASEREN" gate="1" pin="P"/>
 <wire x1="25.4" y1="13.57" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="5.08" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="2.54" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
@@ -11170,7 +11170,7 @@ Grid 5.00 mm&lt;p&gt;
 <segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="45.72" y1="7.62" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="S2" gate="1" pin="O"/>
+<pinref part="LASEREN" gate="1" pin="O"/>
 <wire x1="45.72" y1="5.08" x2="40.64" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="5.08" x2="38.1" y2="5.08" width="0.1524" layer="91"/>
