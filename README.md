@@ -44,7 +44,7 @@ The laser pulser analog in (or similar on other pulsers) should be attached to D
 This laser, like all lasers, uses high electrical currents and wavelengths which can be damaging to the body. Always practice good PPE and high current standards. Before use, consult with the institution laser safety officer to ensure the space and preparation is ready for laser use. If any questions arise, consult an institutional staff electrical engineer or laser safety officer. It is expected that laser safety googles which have been rated for the wavelengths used are worn at all times laser is on, or is about to become active.
 
 # License and Disclamer
-Content is copyright © Open Source Guides authors, released under CC-BY-4.0, which gives you permission to use content for almost any purpose (but does not grant you any trademark permissions), so long as you note the license and give credit.
+Copyright © Open Source Guides authors, released under CC-BY-4.0, which gives you permission to use content for almost any purpose (but does not grant you any trademark permissions), so long as you note the license and give credit.
 
 Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.
 
