@@ -1,5 +1,5 @@
 # INSight
-Welcome to INSight, the open source infrared neural stimulation laser! Here you will find design documents, code, and bill of materials to build your own INSight. Questions can be made in the Issues section of this respository.
+Welcome to INSight, the open source infrared neural stimulation system! Here you will find design documents, code, and bill of materials to build your own INSight. Questions can be made in the Issues section of this respository.
 
 # Citation
 If you use INSight, we only ask that you cite our paper:
