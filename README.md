@@ -40,7 +40,7 @@ As programmed, the arduino expects a LVTTL pulse (0-3.3V) on digital I/O pin 7 t
 
 The laser pulser analog in (or similar on other pulsers) should be attached to DAC0 on the DUE and grounds tied together. DAC0 has an output range of 0.5 - 2.8V, so voltage dividers on output may need to be added to get output voltages in the desired range.
 
-# A note on laser use
+# Laser Safety and use
 This laser, like all lasers, uses high electrical currents and wavelengths which can be damaging to the body. Always practice good PPE and high current standards. Before use, consult with the institution laser safety officer to ensure the space and preparation is ready for laser use. If any questions arise, consult an institutional staff electrical engineer or laser safety officer. It is expected that laser safety googles which have been rated for the wavelengths used are worn at all times laser is on, or is about to become active.
 
 Safe laser usage relies on both engineering controls and explicit protocols which are available to all users of the lasing system. To facilitate good practice, a laser standard operating procedure template is included in this toolkit which can serve as a baseline for development of user SOPs. This template must be adjusted to suit the needs and requirements of the institution in which INSight will be used.
