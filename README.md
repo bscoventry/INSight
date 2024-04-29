@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/429533133.svg)](https://zenodo.org/doi/10.5281/zenodo.11086672)
 # INSight
 Welcome to INSight, the open source infrared neural stimulation system! Here you will find design documents, code, and bill of materials to build your own INSight. Questions can be made in the Issues section of this respository.
 
