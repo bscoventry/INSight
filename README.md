@@ -2,7 +2,7 @@
 Welcome to INSight, the open source infrared neural stimulation system! Here you will find design documents, code, and bill of materials to build your own INSight. Questions can be made in the Issues section of this respository.
 
 # Citation
-If you use INSight, we only ask that you cite our paper: and consult your institutional laser safety officer to ensure INSight is used in safest conditions possible.
+If you use INSight, we only ask that you cite our paper: https://doi.org/10.1093/pnasnexus/pgae082 and consult your institutional laser safety officer to ensure INSight is used in safest conditions possible.
 
 # The build
 Building insight is a quick and easy build, but should follow a defined set of steps. The steps are as follows:
